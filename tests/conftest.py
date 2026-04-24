@@ -3,7 +3,6 @@
 from __future__ import annotations
 
 import pytest
-import httpx
 import respx
 
 from agentlair import AgentLair

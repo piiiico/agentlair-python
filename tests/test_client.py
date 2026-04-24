@@ -4,9 +4,8 @@ from __future__ import annotations
 
 import httpx
 import pytest
-import respx
 
-from agentlair import AgentLair, AgentLairClient, AgentLairSync
+from agentlair import AgentLair, AgentLairClient
 
 
 class TestClientInit:

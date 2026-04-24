@@ -8,7 +8,7 @@ from typing import TYPE_CHECKING, Any
 
 if TYPE_CHECKING:
     from ._http import HttpClient
-    from ._types import EmitEventResult, EventCategory, EventResultValue
+    from ._types import EmitEventResult
 
 
 class EventsNamespace:
